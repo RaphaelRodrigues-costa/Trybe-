@@ -2,11 +2,11 @@ let number1;
 let number2;
 let number3;
 
-number1 = 7;
-number2 = 5;
-number3 = 15;
+number1 = 1;
+number2 = 10;
+number3 = 10;
 
-if(number1 % 2 == 0 || number2 % 2 == 0  || number3 % 2 == 0 ){
+if(number1 % 2 == 1 || number2 % 2 == 1  || number3 % 2 == 1 ){
   console.log(true)
 }
 else{
