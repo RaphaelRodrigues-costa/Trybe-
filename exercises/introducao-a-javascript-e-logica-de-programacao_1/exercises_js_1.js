@@ -1,26 +1,14 @@
+let number1;
+let number2;
+let number3;
 
+number1 = 7;
+number2 = 5;
+number3 = 15;
 
-let nota;
-nota = 50;
-
-if (nota >= 90 &&  nota <= 100 ){
-  console.log("A");
+if(number1 % 2 == 0 || number2 % 2 == 0  || number3 % 2 == 0 ){
+  console.log(true)
 }
-else if (nota >= 80 && nota <= 89){
-  console.log("B")
-}
-else if(nota >= 70 && nota <= 79){
-  console.log("C")
-}
-else if(nota >= 60 && nota <= 69){
-  console.log("D")
-}
-else if(nota >= 50 && nota <= 59){
-  console.log("E")
-}
-else if(nota < 50 && nota > 0 ){
-  console.log("F")
-}
-else {
-  console.log("erro")
+else{
+  console.log(false)
 }
