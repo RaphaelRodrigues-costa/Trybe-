@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(40, 179, 132);
+}
+
+.header-text{
+    text-align: center;
+    font-size: 26px;
+}
+
+
+.asaide{
+    float: right;
+    border: solid;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+}
+
+.asaide h2{
+    
+    
+    
+}
+
+.asaide img{
+    width: 200px;
+    height: 200px;
+}
+
+.asaide li{
+    list-style: none;
+    text-align: left;
+    margin-left: 20px;
+    
+}
+
+.main{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: left;
+    background-color: rgb(22, 231, 231);
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+
+.referencias{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.iframe{
+    
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer{
+    float: right;
+
+}
