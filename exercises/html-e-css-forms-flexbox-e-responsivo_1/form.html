@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap-reboot.min.css">
+
+    <title>Document</title>
+  </head>
+  <body>
+    <form action=""></form>
+    <fieldset class="fieldset-style">
+      <div>
+        <label for="nome">Nome :</label>
+        <input type="text" maxlength="40" required />
+      </div>
+
+      <div>
+        <label for="email">Email :</label>
+        <input type="text" maxlength="50" required />
+      </div>
+
+      <div>
+        <label for="cpf">Cpf :</label>
+        <input type="text" maxlength="11" required />
+      </div>
+
+      <div>
+        <label for="endereco">Endereço :</label>
+        <input type="text" maxlength="200" required />
+      </div>
+
+      <div>
+        <label for="cidade">Cidade :</label>
+        <input type="text" maxlength="28" required />
+      </div>
+
+      <div>
+        <label for="nome">Estados :</label>
+        <select id="estado" name="estado">
+          <!-- fonte https://gist.github.com/quagliato/9282728 -->
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espírito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PA">Pará</option>
+          <option value="PB">Paraíba</option>
+          <option value="PR">Paraná</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="RO">Rondônia</option>
+          <option value="RR">Roraima</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="SP">São Paulo</option>
+          <option value="SE">Sergipe</option>
+          <option value="TO">Tocantins</option>
+          <option value="EX">Estrangeiro</option>
+        </select>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <label for="resumo">Resumo do currículo</label>
+        <textarea
+          name="resumoDoCurriculo"
+          id=""
+          cols="30"
+          rows="10"
+          maxlength="1000"
+          required
+        ></textarea>
+      </div>
+
+      <div>
+        <label for="cargo">Cargo :</label>
+        <input type="text" maxlength="40" required />
+      </div>
+
+      <div>
+        <label for="descrition">Descrição do cargo :</label>
+        <textarea
+          name="descrition"
+          id=""
+          cols="30"
+          rows="10"
+          maxlength="500"
+          required
+        ></textarea>
+      </div>
+
+      <div>
+        <label for="gata">Data</label>
+        <input id="data" type="date" />
+      </div>
+    </fieldset>
+  </form>
+    <script src="script.js"></script>
+  </body>
+</html>
